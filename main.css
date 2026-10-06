@@ -18,6 +18,22 @@ body {
   width: 100%;
 }
 
+header p,
+.section1 p,
+.section3 p,
+.section8 p {
+  max-width: 65ch;
+}
+
+.section1 p,
+.section3 p {
+  margin: 0 auto;
+}
+
+.section2-texts p {
+  max-width: 40ch;
+}
+
 header {
   position: relative;
   width: 100%;
@@ -325,4 +341,124 @@ footer .socials {
 footer .socials img {
   width: 20px;
   height: 20px;
+}
+
+@media (max-width: 768px) {
+  /* ---------- hero ---------- */
+  header {
+    padding: 3rem 1rem;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  /* ---------- text sizes and side space ---------- */
+  header p,
+  .section1 p,
+  .section3 p,
+  .section5 p,
+  .section8 p {
+    font-size: 14px;
+  }
+
+  .section1,
+  .section3,
+  .section5,
+  .section8 {
+    padding: 0 1rem;
+  }
+
+  /* ---------- buttons (hero + bottom) ---------- */
+  header .buttons,
+  .section8 .buttons {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 1rem;
+    gap: 1rem;
+  }
+
+  header .buttons a,
+  .section8 .buttons a {
+    text-align: center;
+    font-size: 14px;
+    padding: 1rem 1.5rem;
+  }
+
+  /* ---------- monitor + 3 features ---------- */
+  .section2 {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .section2 img {
+    width: 90%;
+    transform: none;
+  }
+
+  .section2-texts {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section2-texts p {
+    font-size: 12px;
+    margin: 0 auto;
+  }
+
+  /* ---------- devices image ---------- */
+  .section4 {
+    padding: 0 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .section4 img {
+    width: 100%;
+  }
+
+  /* ---------- 3 feature cards ---------- */
+  .section6 {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .section6-content {
+    width: 100%;
+  }
+
+  .section6-content p {
+    font-size: 12px;
+  }
+
+  /* ---------- company logos ---------- */
+  .section7 {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .section7 img {
+    width: auto;
+    height: auto;
+    max-width: 50%;
+  }
+
+  /* ---------- footer ---------- */
+  footer {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2.5rem 0;
+  }
+
+  footer .footer-links {
+    align-items: center;
+    transform: none;
+  }
+
+  .footer-links-top,
+  .footer-links-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
 }
