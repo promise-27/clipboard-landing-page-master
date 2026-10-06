@@ -182,3 +182,147 @@ header .buttons a:last-child:hover {
   color: hsl(201, 11%, 66%);
   font-size: 12px;
 }
+
+.section6 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.section6-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.7rem;
+}
+
+.section6-content h4 {
+  font-size: 12px;
+  color: hsl(210, 10%, 33%);
+  font-weight: bolder;
+}
+
+.section6-content p {
+  font-size: 10px;
+  color: hsl(201, 11%, 66%);
+}
+
+.section7 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.section7 img {
+  width: 14%;
+  height: 14%;
+}
+
+.section8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.section8 h2 {
+  font-size: 24px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.section8 p {
+  font-size: 12px;
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.section8 .buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.section8 .buttons a {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px -5px hsl(233, 100%, 69%, 0.3);
+}
+
+.section8 .buttons a:first-child {
+  background-color: hsl(171, 66%, 44%);
+  color: hsl(0, 0%, 100%);
+  border-bottom: 2px solid hsl(171, 66%, 34%);
+}
+.section8 .buttons a:first-child:hover {
+  background-color: hsl(171, 66%, 34%);
+}
+
+.section8 .buttons a:last-child {
+  background-color: hsl(233, 100%, 69%);
+  color: hsl(0, 0%, 100%);
+  border-bottom: 2px solid hsl(231, 69%, 60%);
+}
+.section8 .buttons a:last-child:hover {
+  background-color: hsl(233, 100%, 59%);
+}
+
+footer {
+  width: 100%;
+  background-color: hsla(202, 11%, 66%, 0.197);
+  gap: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5rem 0;
+}
+
+footer .footer-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+footer .footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  transform: translateX(-3rem);
+}
+
+.footer-links-top,
+.footer-links-bottom {
+  display: flex;
+  gap: 2rem;
+}
+
+footer .footer-links a {
+  font-size: 12px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 500;
+}
+
+footer .footer-links a:hover {
+  color: hsl(201, 11%, 66%);
+}
+
+footer .socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer .socials img {
+  width: 20px;
+  height: 20px;
+}
